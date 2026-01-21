@@ -91,24 +91,6 @@ class MyLinkedList<E> {
         return temp;
     }
 
-    // public E removeLast() {
-    //     if (indx == 0)
-    //         throw new NoSuchElementFoundException("");
-
-    //     E temp = tail.ele;
-
-    //     Node<E> currNode = head;
-    //     for (int i = 0; i < size()-1; i++) {
-    //         System.out.println(currNode.ele);
-    //         currNode = currNode.next;
-    //     }
-    //     currNode.next = null;
-    //     tail = currNode;
-    //     if (indx == 1) head = null;
-    //     indx--;
-    //     return temp;
-    // }
-
     public E removeLast() {
     if (indx == 0)
         throw new NoSuchElementFoundException("");
